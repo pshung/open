@@ -1,7 +1,7 @@
 # Using RISC-V intrinsic function to program and run with spike.
 
 Using the RISC-V intrinsic functions to program a vector-add kernel.
-Those intrinsic functions has been proposed by [EPI](https://repo.hca.bsc.es/gitlab/rferrer/epi-builtins-ref/-/blob/master/epi-builtins-ref.md).
+Those intrinsic functions have been proposed by [EPI](https://repo.hca.bsc.es/gitlab/rferrer/epi-builtins-ref/-/blob/master/epi-builtins-ref.md).
 
 ```
 void add_vec(long N, int* C, int* A, int* B) {
