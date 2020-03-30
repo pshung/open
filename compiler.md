@@ -18,7 +18,7 @@ void add_vec(long N, int* C, int* A, int* B) {
 
 ```
 
-> clang --target=riscv64 -march=rv64imfdv vec_add.c   -c -o vec_add.o
-> riscv64-unknown-elf-gcc -march=rv64imfdv vec_add.o -o vec_add -static
-> spike --isa=rv64imafdcv ../riscv64-unknown-elf/bin/pk vec_add
+> clang --target=riscv64 -march=rv64imfdv vec_add.c   -c -o vec_add.o  
+> riscv64-unknown-elf-gcc -march=rv64imfdv vec_add.o -o vec_add -static  
+> spike --isa=rv64imafdcv ../riscv64-unknown-elf/bin/pk vec_add  
 
